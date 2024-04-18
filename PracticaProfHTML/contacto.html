@@ -18,7 +18,22 @@
         <main>
             <h2>¿Como Contactarme?</h2>
             <form action="contacto.html" method="post">
-                <input type="text" name="Nombre" id="id-nombre">
+                <label for="id-nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="id-nombre" placeholder="Chilvi">
+                <br>
+                <label for="id-mail">E-Mail:</label>
+                <input type="email" name="Email" id="id-mail" placeholder="example@provider.com.ar">
+                <br>
+                <label for="id-telefono">Telefono:</label>
+                <input type="text" name="Telefono" id="id-telefono" placeholder="3517776482">
+                <br>
+                <label for="id-cantidad">Cantidad:</label>
+                <input type="number" name="cantidad" id="id-cantidad" value="0">
+                <br>
+                <label for="id-mensaje">Mensaje:</label>
+                <br>
+                <textarea name="mensaje" id="id-mensaje" cols="30" rows="10"></textarea>
+                <br>
                 <button type="submit">Enviar</button>
             </form>
 
