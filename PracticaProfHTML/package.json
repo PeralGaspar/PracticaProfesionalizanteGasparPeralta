@@ -4,7 +4,7 @@
   "description": "Practica Profesionalisante de Aplicaciones Web 1\r PORYECTO\r Creaciòn de una pagina web rudamentaria que debe incluir las siguientes funciones:\r -Una barra de navegacion constante entre subpaginas\r -Una subpagina \"Catalogo\" que liste diferentes productos con sus precios y categoria, siendo la navegacion del mismo por autoscroll\r -Una subpagina que contenga algun tipo de formulario\r -Dominio HTTPS propio",
   "main": "index.js",
   "scripts": {
-    "start": "five-server"
+    "dev": "five-server"
   },
   "author": "",
   "license": "ISC",

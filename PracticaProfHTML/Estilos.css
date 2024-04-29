@@ -1,0 +1,63 @@
+
+/**{
+    outline: 2px solid red;
+    box-sizing: border-box;
+}
+
+
+/*++++++++++++++++++
+ENCABEZADO
+++++++++++++++++++++*/
+
+.menu-principal
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabesera
+{
+    background-color: rgb(255, 201, 210);
+    color: rgb(53, 196, 112);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 20px solid aquamarine;
+    border-radius: 50px;
+}
+
+/*++++++++++++++++++
+CUERPO
+++++++++++++++++++++*/
+
+.parrafos
+{
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    border: 20px solid aquamarine;
+    border-radius: 50px;
+}
+.parrafo-img
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.perfil
+{
+    display: inline;
+    border: 10px solid aquamarine;
+    border-radius: 50px;
+}
+span{
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+/*++++++++++++++++++
+PIE
+++++++++++++++++++++*/
