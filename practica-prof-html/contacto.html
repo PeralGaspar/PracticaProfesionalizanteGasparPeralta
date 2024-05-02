@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Casita de Chilvi: Contacto</title>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <link rel="stylesheet" href="Estilos.css">
+    </head>
+    <body>
+        <header class="cabesera">
+            <a href="index.html"><img class="Logo" src="./Recursos/chilvi_logo.png" alt="Logo"/></a> <h1> Casita de Chilvi Manualidades y Souvenirs</h1>
+            <nav class="menu-principal">
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catalogo</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Entremos en Contacto</h2>
+            <form action="contacto.html" method="post">
+                <section id="Formulario" class="form">
+                    <label for="id-nombre">Nombre:</label>
+                    <input type="text" name="Nombre" id="id-nombre" placeholder="Chilvi" required="true">
+                    <br>
+                    <label for="id-mail">E-Mail:</label>
+                    <input type="email" name="Email" id="id-mail" placeholder="example@provider.com.ar" required="true">
+                    <br>
+                    <label for="id-telefono">Telefono:</label>
+                    <input type="number" name="Telefono" id="id-telefono" placeholder="3517776482" required="true">
+                    <br>
+                    <label for="id-mensaje">Mensaje:</label>
+                    <br>
+                    <textarea name="mensaje" id="id-mensaje" cols="30" rows="10" required="true"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </section>
+            </form>
+
+        </main>
+        <footer>
+            <ul class="pie-pagina">
+                <li>
+                    Casita de Chilvi - 2024
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">
+                        <img src="./Recursos/instagram.svg" alt="Instagram_Logo">
+                    </a>
+                </li>
+                <li>
+                    Telefono: XXX-XXX-XXX
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

@@ -18,6 +18,8 @@ ENCABEZADO
     display: flex;
     align-items: center;
     gap: 15px;
+    border: 5px solid rgb(255, 255, 152);
+    border-radius: 50px;
 }
 
 .cabesera
@@ -38,7 +40,6 @@ CUERPO
 p
 {
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-colorido-patron-geometrico-costuras_53876-118676.jpg?w=740&t=st=1714577708~exp=1714578308~hmac=151659a0b4fac9fec2869b8e201145a6239b743906ec4bed02d445382b74dfd6);
 }
 
 body
@@ -55,6 +56,7 @@ body
     padding-right: 50px;
     border: 20px solid aquamarine;
     border-radius: 50px;
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-colorido-patron-geometrico-costuras_53876-118676.jpg?w=740&t=st=1714577708~exp=1714578308~hmac=151659a0b4fac9fec2869b8e201145a6239b743906ec4bed02d445382b74dfd6);
 }
 .parrafo-img
 {
@@ -68,6 +70,14 @@ body
     border: 10px solid aquamarine;
     border-radius: 50px;
 }
+
+figcaption
+{
+    background-color: bisque;
+    text-align: center;
+    font-size: large;
+}
+
 span{
     display: inline-block;
     justify-content: space-evenly;
@@ -99,6 +109,16 @@ span{
     border-radius: 50px;
 }
 
+.form
+{
+    border: 5px solid black;
+    border-radius: 5px;
+    border-style: dashed;
+    justify-content: center;
+    display: inline-block;
+    padding: 10px;
+}
+
 /*++++++++++++++++++
 PIE
 ++++++++++++++++++++*/
@@ -107,6 +127,7 @@ PIE
     display: flex;
     justify-content: right;
     gap: 50px;
-    border: 10px solid blue;
+    border: 10px solid rgb(184, 229, 255);
     border-radius: 10px;
+    background-color: beige;
 }
