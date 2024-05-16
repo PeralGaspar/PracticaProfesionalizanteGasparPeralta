@@ -1,3 +1,4 @@
+*{ box-sizing: border-box;}
 
 /**{
     outline: 2px solid red;
@@ -25,7 +26,7 @@ ENCABEZADO
     align-items: center;
     border: 20px solid aquamarine;
     border-radius: 50px;
-    height: 100px;
+    height: 140px;
     position: sticky;
     top: 0px;
     left: 0px;
@@ -64,9 +65,15 @@ p
 
 body
 {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
     background-image: 
     url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjMzMC10YW5nLTYxLWFuaW1hbHBhdHRlcm5fMi5qcGc.jpg);
 }
+
+main{flex-grow: 1;}
+
 .parrafos
 {
     width: 600px;
@@ -113,6 +120,7 @@ span{
 
 .catalogo-lst
 {
+    padding: 10px;
     display: flex;
     border: 10px solid rgb(204, 147, 209);
     border-radius: 50px;
@@ -151,3 +159,13 @@ PIE
     border-radius: 10px;
     background-color: beige;
 }
+
+/* Responsividad mobil
+*/
+@media (width < 581px){
+    main{flex-grow: 1;
+        }
+    .Titulo-Principal{
+        display: none;
+    }
+    }
