@@ -1,0 +1,62 @@
+[
+    [
+        {
+            "nombre": "Latita",
+            "rutaImagen": "./Recursos/latas.jpg",
+            "precio": 2000,
+            "categoria": "Cumpleaños"
+        },
+        {
+            "nombre": "Latita",
+            "rutaImagen": "./Recursos/latas.jpg",
+            "precio": 2000,
+            "categoria": "Cumpleaños"
+        },
+        {
+            "nombre": "Latita",
+            "rutaImagen": "./Recursos/latas.jpg",
+            "precio": 2000,
+            "categoria": "Cumpleaños"
+        }
+    ],
+    [
+        {
+            "nombre": "Bolsa",
+            "rutaImagen": "./Recursos/bolsas.jpg",
+            "precio": 2000,
+            "categoria": "Comunion"
+        },
+        {
+            "nombre": "Bolsa",
+            "rutaImagen": "./Recursos/bolsas.jpg",
+            "precio": 2000,
+            "categoria": "Comunion"
+        },
+        {
+            "nombre": "Bolsa",
+            "rutaImagen": "./Recursos/bolsas.jpg",
+            "precio": 2000,
+            "categoria": "Comunion"
+        }
+    ],
+    [
+        {
+            "nombre": "Tarjetas",
+            "rutaImagen": "./Recursos/tarjetas.jpg",
+            "precio": 2000,
+            "categoria": "Souvenirs"
+        },
+        {
+            "nombre": "Tarjetas",
+            "rutaImagen": "./Recursos/tarjetas.jpg",
+            "precio": 2000,
+            "categoria": "Souvenirs"
+        },
+        {
+            "nombre": "Tarjetas",
+            "rutaImagen": "./Recursos/tarjetas.jpg",
+            "precio": 2000,
+            "categoria": "Souvenirs"
+        }
+    ]
+]
